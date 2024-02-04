@@ -1,0 +1,68 @@
+body {
+  padding-top: 56px;
+}
+
+.navbar {
+  background-color: #0f002c;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-nav {
+  margin: auto; /* Center the navbar items */
+}
+
+.navbar-nav .nav-item {
+  text-align: center; /* Center the individual items within the navbar */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 10px 15px; /* Adjust padding for better spacing */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+/* Optional: Style the buttons differently */
+.navbar-nav .nav-link.btn {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-link.btn:hover {
+  background-color: #0056b3;
+  border: 1px solid #0056b3;
+  color: #ffffff;
+}
+.navbar-nav .nav-item.logout {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.container {
+  text-align: center;
+}
+
+/* Adjust margin and padding for better spacing */
+.container .btn {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+/* Apply the specified color to specific buttons */
+.btn-primary.btn-sm {
+  background-color: #180243;
+  color: #ffffff; /* Optional: set text color to white for better visibility */
+}
+
+/* Optional: Style the buttons differently on hover */
+.btn-primary.btn-sm:hover {
+  background-color: #0f002c; /* Change color on hover */
+}
